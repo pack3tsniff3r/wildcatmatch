@@ -1,0 +1,159 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 75px 725px 225px;
+  grid-template-rows: 75px 675px;
+  grid-template-areas: "side-1 header stats" "side-1 gamearea stats";
+}
+
+.side-1 {
+  grid-area: side-1;
+  margin-left: 15px;
+}
+
+.stats {
+  grid-area: stats;
+}
+
+.header {
+  grid-area: header;
+  border: solid 1px #F88A21;
+  background-color: #0038A9;
+  font-family: 'Coustard', serif;
+}
+
+.headertext {
+  margin-top: 5px;
+  margin-left: 35px;
+  font-family: 'Coustard', serif;
+  margin-top: 25px;
+  color: #F88A21;
+  font-size: 50px;}
+
+  }
+.gamearea {
+  grid-area: gamearea;
+
+}
+.gamearea {
+  padding-top: 15px;
+  border: solid 5px #F88A21;
+  height: 600px;
+}
+.card {
+  float: left;
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  background: url("11.png");
+}
+
+#pic1 {
+  background: url("1.png");
+  width: 120px;
+  height: 120px;
+}
+#pic2 {
+  background: url("2.png");
+}
+
+#pic3 {
+  background: url("3.png");
+}
+#pic4 {
+  background: url("4.png");
+}
+#pic5 {
+  background: url("5.png");
+}
+#pic6 {
+  background: url("6.png");
+}
+#pic7 {
+  background: url("7.png");
+}
+#pic8 {
+  background: url("8.png");
+}
+#pic9 {
+  background: url("9.png");
+}
+#pic10 {
+  background: url("10.png");
+}
+.player1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 60px;
+  color: #F88A21;
+}
+
+.player2 {
+    margin-right: 60px;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 20px;
+}
+.scoreboard {
+  font-family: 'Coustard', serif;
+  padding-top:25px;
+  margin-top: 15px;
+  margin-left: 7px;
+  font-size: 25px;
+  width: 215px;
+  height: 250px;
+  background-color: #0038A9;
+  border: solid 5px #F88A21;
+  font-size: 45px;
+  text-align: center;
+  color: #F88A21;
+}
+#counter {
+  height: 50px;
+  width:50px;
+  background: #F88A21;
+}
+.gameswon {
+  padding-top: 15px;
+  font-size: 25px:
+  color: #F88A21;
+}
+.score {
+  margin-top:25px;
+  padding-top: 25px;
+  font-size: 25px;
+  height: 65px;
+  width:80px;
+  background: #F88A21;
+  margin-left: 65px;
+  border: solid 5px white;
+}
+#score {
+  color: black;
+  font-size: 50px;
+}
+#totals {
+  padding-top: 15px;
+  color: black;
+  font-size: 75px;
+}
+.total {
+  margin-top: 125px;
+}
+#total {
+  padding-top: 15px;
+  color: black;
+  font-size: 75px;
+}
+input {
+  font-family: 'Coustard', serif;
+  text-align: center;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  margin-top: 20px;
+  border: solid 2px white;
+  background: #F88A21;
+
+
+}
